@@ -14,11 +14,6 @@ header,
 footer {
   width: 100%;
   height: 10vh;
-}
-
-header,
-main,
-footer {
   background-color: #f2f2e2;
   display: flex;
   align-items: center;
@@ -30,7 +25,26 @@ header {
 }
 
 footer {
-  font-size: 0.7em;
+  font-size: 0.8em;
+}
+
+main {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
 }
 
 nav ul {
@@ -45,13 +59,44 @@ nav ul {
 nav ul li a {
   font-family: "Oswald", sans-serif;
   text-decoration: none;
-  text-transform: uppercase;
   font-size: 1.2em;
   color: black;
+  transition: all 0.3s ease;
 }
 
 nav ul li a:hover {
   font-size: 1.3em;
   transform: translateY(5px);
-  transition-duration: 0.2s;
+  color: #555;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#send_button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1em;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#send_button:hover {
+  background-color: #555;
+}
+
+#email,
+#topic,
+#message {
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
 }

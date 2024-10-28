@@ -25,7 +25,25 @@
         </ul>
       </nav>
     </header>
-    <main>Main</main>
+    <main>
+      <h1>Formularz kontaktowy</h1>
+      <form>
+        <div class="form">
+          <label for="email">Adres E-Mail</label><br />
+          <input type="text" id="email" placeholder="E-Mail" /><br />
+          <label for="topic">Temat wiadomości</label><br />
+          <select id="topic" name="topic">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+          <label for="message">Wiadomość</label><br />
+          <textarea name="message" id="message" rows="10" cols="30"> </textarea>
+          <button type="submit" id="send_button">Wyślij</button>
+        </div>
+      </form>
+    </main>
     <footer>Kajetan Frątczak</footer>
   </body>
 </html>
