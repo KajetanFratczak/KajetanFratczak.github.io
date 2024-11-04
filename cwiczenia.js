@@ -461,3 +461,16 @@ const calfExercises = [
   "Wspięcia na palcach stojąc ze sztangą trzymaną na plecach",
   "Wspięcia na palcach siedząc na maszynie",
 ];
+
+// struktura przechowujaca wszystkie cwiczenia w grupach aby latwiej bylo sie do nich odwolywac
+const exercises = [
+  { name: "biceps", exercises: bicepsExercises },
+  { name: "quadriceps", exercises: quadricepsExercises },
+  { name: "hamstring_glutes", exercises: hamstringAndGluteExercises },
+  { name: "chest", exercises: chestExercises },
+  { name: "back", exercises: backExercises },
+  { name: "shoulders", exercises: shoulderExercises },
+  { name: "abs", exercises: abExercises },
+  { name: "triceps", exercises: tricepsExercises },
+  { name: "calves", exercises: calfExercises },
+];
