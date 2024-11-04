@@ -1,4 +1,5 @@
-const bicepsExercises = [
+const bicepsExercises = 
+[
   "Uginanie ramion z gumą",
   "Zginanie ramion ze sztangą nachwytem",
   "Uginanie ramion na TRX",
@@ -25,7 +26,8 @@ const bicepsExercises = [
   "Zginanie przedramion z drążkiem wyciągu dolnego stojąc",
   "Zginanie przedramion ze sztangą stojąc",
 ];
-const quadricepsExercises = [
+const quadricepsExercises = 
+[
   "Zakroki Zerchera",
   "Wyprosty kolan na maszynie jednonóż",
   "Syzyfki z asekuracją",
@@ -83,7 +85,8 @@ const quadricepsExercises = [
   "Wypychanie nogami na suwnicy",
   "Przysiad w wykroku na maszynie Smitha",
 ];
-const hamstringAndGluteExercises = [
+const hamstringAndGluteExercises = 
+[
   "Żuraw z pomocą gumy",
   "Martwy ciąg jednonóż z półsztangą",
   "Landmine One leg RDL",
@@ -157,7 +160,8 @@ const hamstringAndGluteExercises = [
   "Hamstring curls machine",
   "Ball leg curl",
 ];
-const chestExercises = [
+const chestExercises = 
+[
   "Wyciskanie stojąc z wykorzystaniem wyciągu lub bramy",
   "Cable chest press",
   "Wyciskanie hantli wąskim chwytem neutralnym na ławeczce płaskiej",
@@ -227,7 +231,8 @@ const chestExercises = [
   "Incline barbell bench press",
   "Wyciskanie sztangielek na ławce płaskiej",
 ];
-const backExercises = [
+const backExercises = 
+[
   "Wiosłowanie gumą w opadzie tułowia - Bent over banded row",
   "Ściąganie gumy jednorącz z nad głowy - One arm overhead banded lat pull down",
   "Ściąganie chwytu wyciągu górnego po skosie - Half kneeling one arm lat pulldown",
@@ -294,7 +299,8 @@ const backExercises = [
   "Wiosłowanie na suwnicy Smitha w opadzie tułowia - Bent over row – Smith machine",
   "Wiosłowanie sztangą trzymaną podchwytem w opadzie tułowia",
 ];
-const shoulderExercises = [
+const shoulderExercises = 
+[
   "TRX odwrócone rozpiętki - TRX reverse fly",
   "TRX face pull",
   "Przenoszenie ramion z gumą miniband",
@@ -347,7 +353,8 @@ const shoulderExercises = [
   "Wznosy ramion w bok w opadzie tułowia siedząc - Seated bent-over raise",
   "Wznosy ramion w bok w opadzie tułowia - Bent-over raise",
 ];
-const abExercises = [
+const abExercises = 
+[
   "TRX superman na kolanach - TRX superman on knees",
   "TRX body saw",
   "Rotacje w pozycji podporu bokiem - Rotating high side plank",
@@ -411,7 +418,8 @@ const abExercises = [
   "Zginanie tułowia na maszynie siedząc. Spięcia brzucha na maszynie - AB crunch machine",
   "Unoszenie tułowia z podłoża. Spięcia brzucha leżąc - AB crunch",
 ];
-const tricepsExercises = [
+const tricepsExercises = 
+[
   "Prostowanie ramienia jednorącz w klęku podpartym na ławce płaskiej",
   "Prostowanie ramion z gumą pod stopami",
   "Prostowanie ramion w oparciu o ławeczkę",
@@ -450,7 +458,8 @@ const tricepsExercises = [
   "Wyciskanie sztangi łamanej wąskim chwytem na ławeczce płaskiej",
   "Wyciskanie sztangi na suwnicy Smitha wąskim chwytem na triceps",
 ];
-const calfExercises = [
+const calfExercises = 
+[
   "Wspięcia na palce jednonóż",
   "Wspięcia na palce jednonóż z hantlami",
   "Wspięcia na palcach w pozycji siedzącej ze sztangą ułożoną na kolanach",
@@ -463,7 +472,8 @@ const calfExercises = [
 ];
 
 // struktura przechowujaca wszystkie cwiczenia w grupach aby latwiej bylo sie do nich odwolywac
-const exercises = [
+const exercises = 
+[
   { name: "biceps", exercises: bicepsExercises },
   { name: "quadriceps", exercises: quadricepsExercises },
   { name: "hamstring_glutes", exercises: hamstringAndGluteExercises },
