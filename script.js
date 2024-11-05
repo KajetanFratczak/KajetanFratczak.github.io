@@ -137,6 +137,7 @@ function displayPlan(plan, container)
     const dzien = document.createElement("div");
 
     const nazwa_dnia = document.createElement("h3");
+    nazwa_dnia.className = "nazwa_dnia";
     nazwa_dnia.textContent = day.day + ": " + day.type;
     dzien.appendChild(nazwa_dnia);
 
@@ -163,6 +164,12 @@ function displayPlan(plan, container)
           szczegoly_treningu.style.display = "none";
         }
       };
+
+      nazwa_dnia.onmouseover = function ()
+      {
+        nazwa_dnia.style.cursor = "pointer";
+      }
+      
 
       dzien.appendChild(szczegoly_treningu);
     }
