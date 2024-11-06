@@ -57,6 +57,22 @@ main {
   border: none;
 }
 
+.row_gallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column_gallery {
+  flex: 1;
+  padding: 0 4px;
+}
+
+.column_gallery img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
 .centered {
   font-size: 4vw;
   position: absolute;
@@ -155,5 +171,42 @@ form {
 
   .centered {
     font-size: 6vw; /* Zwiększ rozmiar tekstu w mniejszych oknach */
+  }
+}
+
+
+.video_container {
+  width: 100%;
+  max-width: 90%;
+  margin: 20px auto; 
+  text-align: center; 
+}
+
+.video_container video {
+  width: 100%;
+  height: auto;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+}
+
+.video_button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1em;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.video_button:hover {
+  background-color: #555;
+}
+
+@media (max-width: 768px) {
+  .video_button {
+    font-size: 3vw;
+    padding: 0.5rem 1.2rem;
   }
 }
