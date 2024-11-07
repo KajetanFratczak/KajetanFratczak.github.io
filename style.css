@@ -168,12 +168,18 @@ form {
 
 /* Media queries dla mniejszych ekranów */
 @media (max-width: 1100px) {
+  .column {
+    flex: 1 1 50%;
+  }
   .column_gallery {
-    flex: 1 1 48%; /* Na średnich ekranach (np. tablety) będą 2 zdjęcia w jednym rzędzie */
+    flex: 1 1 50%; 
   }
 }
 
 @media (max-width: 768px) {
+  .column {
+    flex: 1 1 100%;
+  }
   .column_gallery {
     flex: 1 1 100%; /* Na małych ekranach (smartfony) zdjęcia będą w jednym rzędzie */
   }
