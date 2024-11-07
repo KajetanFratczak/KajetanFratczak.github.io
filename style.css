@@ -35,6 +35,14 @@ main {
   flex-direction: column;
 }
 
+#main-plany {
+  background-color: #CDD5C0; /* tutaj możesz ustawić dowolny kolor */
+}
+
+#main-kontakt {
+  background-color: #CDD5C0; /* tutaj możesz ustawić dowolny kolor */
+}
+
 .row {
   display: flex;
   width: 100%;
@@ -64,7 +72,7 @@ main {
 }
 
 .column_gallery {
-  flex: 1;
+  flex: 1 1 32%;
   padding: 0 4px;
 }
 
@@ -157,20 +165,21 @@ form {
   border-radius: 4px;
   font-size: 1rem;
 }
-/* Media queries dla responsywności */
+
+/* Media queries dla mniejszych ekranów */
 @media (max-width: 1100px) {
-  .column {
-    flex: 1 1 50%; /* Ustaw szerokość kolumny na 50% */
+  .column_gallery {
+    flex: 1 1 48%; /* Na średnich ekranach (np. tablety) będą 2 zdjęcia w jednym rzędzie */
   }
 }
 
 @media (max-width: 768px) {
-  .column {
-    flex: 1 1 100%; /* Ustaw szerokość kolumny na 100% dla mniejszych ekranów */
+  .column_gallery {
+    flex: 1 1 100%; /* Na małych ekranach (smartfony) zdjęcia będą w jednym rzędzie */
   }
 
-  .centered {
-    font-size: 6vw; /* Zwiększ rozmiar tekstu w mniejszych oknach */
+  .video_container {
+    max-width: 100%; /* Zapewnia, że film będzie w pełnej szerokości na małych ekranach */
   }
 }
 
@@ -209,4 +218,11 @@ form {
     font-size: 3vw;
     padding: 0.5rem 1.2rem;
   }
+}
+
+.gallery-header
+{
+  background-color: #4F5532;
+  width: 100%;
+  color: #F2F2E0;
 }
