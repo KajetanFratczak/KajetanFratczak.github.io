@@ -55,6 +55,7 @@ main {
 .column {
   flex: 1;
   padding: 0;
+  position: relative;
 }
 
 .column img {
@@ -186,6 +187,9 @@ form {
 
   .video_container {
     max-width: 100%; /* Zapewnia, że film będzie w pełnej szerokości na małych ekranach */
+  }
+  .centered{
+    font-size: 6vw;
   }
 }
 
